@@ -9,3 +9,4 @@ The target variable is "Current Loan Delinquency Status" with the "Loan Sequence
 The parquet files from the preprocessing step and the target column from label prep are joined on the Loan Sequence Number. A simple logistic model was built with the columns extracted from the preprocessing step as the feature set and the processed column from label prep as the target variable. 
 
 ![alt text](https://github.com/SrikarPrayaga06/Loan-Underwriting-Model/blob/main/graph.png)
+Data Flow Graph 
